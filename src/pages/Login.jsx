@@ -1,6 +1,6 @@
 
 import { useState,useEffect } from "react"
-import { signIn } from "../firebase/Firebase"
+import { signIn } from "../services/Firebase"
 import { useNavigate } from "react-router-dom";
 export default function Login(){
 

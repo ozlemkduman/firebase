@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createUser } from "../firebase/Firebase";
+import { createUser } from "../services/Firebase";
 import { useNavigate } from "react-router-dom";
 
 export default function Register() {

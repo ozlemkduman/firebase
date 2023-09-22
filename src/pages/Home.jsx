@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { auth, signOutUser } from "../firebase/Firebase";
+import { auth, signOutUser } from "../services/Firebase";
 import { Link, useNavigate } from "react-router-dom";
 export default function Home() {
 
